@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="profile-card">
+        <div class="card-header">
+            <img src="assets/profile1.jpg" alt="Profile Picture" data-testid="profilePicture">
+        </div>
+        <div class="card-body">
+            <h2 data-testid="fullName">Aisosa Oyakhire</h2>
+            <h3 data-testid="jobTitle">Frontend Developer</h3>
+            <p data-testid="shortBio">A motivated frontend developer with expertise in UI/UX, JavaScript, React JS, and
+                WordPress. I thrive in collaborative, multi-disciplinary environments and I
+                am passionate about delivering impactful digital solutions. </p>
+            <p data-testid="currentLocation">Abuja, Nigeria</p>
+            <p data-testid="emailAddress">aisosagraphicdesign22@gmail.com</p>
+            <div class="social-links" data-testid="socialLinks">
+                <a href="https://www.linkedin.com/in/oyakhireaisosamargaret" target="_blank" aria-label="LinkedIn"
+                    data-testid="socialLinks"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Aisosaoyakhire" target="_blank" aria-label="GitHub"
+                    data-testid="socialLinks"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/Aisomegoyak" target="_blank" aria-label="Twitter"
+                    data-testid="socialLinks"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <p class="time" data-testid="currentTimeUTC"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

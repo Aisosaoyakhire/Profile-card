@@ -50,3 +50,26 @@ body {
   font-size: 16px;
   color: #555;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+#shortBio {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+#readMoreBtn {
+  background-color: #143960;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#readMoreBtn:hover {
+  background-color: #0056b3;
+}

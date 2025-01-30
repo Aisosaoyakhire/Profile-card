@@ -17,9 +17,19 @@
         <div class="card-body">
             <h2 data-testid="fullName">Aisosa Oyakhire</h2>
             <h3 data-testid="jobTitle">Frontend Developer</h3>
-            <p data-testid="shortBio">A motivated frontend developer with expertise in UI/UX, JavaScript, React JS, and
-                WordPress. I thrive in collaborative, multi-disciplinary environments and I
-                am passionate about delivering impactful digital solutions. </p>
+            <p id="shortBio" data-testid="shortBio">
+                I am a motivated front-end developer with a strong foundation in UI/UX design, JavaScript, React JS, and
+                WordPress. My passion lies in creating visually engaging, user-friendly, and interactive web
+                experiences. I thrive in collaborative, multi-disciplinary environments, where I can contribute to a
+                team’s success while continuously learning and improving my skills. I am dedicated to delivering
+                impactful digital solutions that enhance user experience and meet business objectives.
+                <span id="moreText" style="display: none;">With a focus on both design and functionality, I aim to build
+                    scalable, efficient, and innovative web applications that provide value to users and stakeholders
+                    alike.</span>
+            </p>
+
+            <button id="readMoreBtn" onclick="toggleReadMore()">Read More</button>
+
             <p data-testid="currentLocation">Abuja, Nigeria</p>
             <p data-testid="emailAddress">aisosagraphicdesign22@gmail.com</p>
             <div class="social-links" data-testid="socialLinks">
